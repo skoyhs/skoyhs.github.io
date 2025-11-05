@@ -1,0 +1,26 @@
+/* 不蒜子统计样式 */
+.busuanzi-container {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: var(--bg-color);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.busuanzi-item {
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.busuanzi-value {
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-left: 0.3rem;
+}
+
+/* 文章页阅读量样式 */
+.post-meta .busuanzi-value {
+  color: var(--text-color);
+}
